@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    background-color: #89CFF0;
+    border-bottom: 2px solid black;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-bg{
+    width: 100%;
+    background-color: #89CFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+li {
+    margin: 0 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+main {
+    height: auto;
+    padding: 50px;
+    background-position: center;
+    background-size: 100%;
+    background-color: whitesmoke;
+}
+
+.p-intro-t {
+    text-align: center;
+    font-size: 30px;
+}
+
+.block-a{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.intro-t {
+    font-size: 70px;
+    font-weight: 700;
+    border-bottom: 0px solid black;
+    transition: all 0.1s;
+}
+.h1-header{
+    margin-right: 835px;
+}
+.black-color{
+    color: black;
+}
+.block-b-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 600px;
+    height: 100px;
+    width: 200px;
+    text-decoration: underline;
+}
+.over-mij-text{
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    height: 200x;
+    width: 45%;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-arrow{
+    height: 100px;
+    margin-left: 1300px;
+    margin-top: 300px;
+    rotate: 90deg;
+    
+}
+.foto-john{
+    height: 500px;
+    margin-left: 1000px;   
+    margin-top: -300px;
+}
+.contact-con{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 450px;
+}
+.contact-block-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 280px;
+    background-color: #000080;
+    margin-top: -325px;
+}
+.contact-block-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 280px;
+    background-color: #000080;
+    margin-top: -325px;
+}
+.contact-block-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 280px;
+    background-color: #000080;
+    margin-top: -325px;
+}
+.contact-text{
+    height: 100px;
+    width: 700px;
+    margin-top: 400px;
+    margin-left: 600px;
+}
+.cc-text-boven{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.cc-text-onder{
+    font-size: 40px;
+}
+.block-a-cc{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: top;
+    color: white;
+}
+.block-b-cc{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: top;
+    color: white    ;
+}
+.block-c-cc{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: top;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .main{
+        height: auto;
+    }
+    header{
+    flex-direction: column;
+    height: auto;
+    }
+    h1.h1-header{
+    margin: 0;
+    margin-bottom: 10px;
+    }
+    ul{
+    margin: 0;
+    margin-bottom: 10px;
+    flex-direction: column;
+    }
+    li{
+    margin: 10px 0;
+    }
+    .img-arrow{
+    display: none;
+    }
+    .contact-con{
+    flex-direction: column;
+    align-items: center;
+    }
+    .p-intro-t {
+        margin-top: 200px;
+    }
+    .intro-t {
+        font-size: 35px;
+    }
+    .block-b-intro {
+        margin-top: 250px;
+    }
+    .over-mij-text {
+        height: 600px;
+        margin-left: 10;
+        font-size: 18px;
+    }
+    .contact-con {
+        margin: 0;
+    }
+    .block-b-intro{
+        margin-left: 0;
+    }
+    .contact-text{
+        margin-left: 0;
+        margin-top: 450px;
+    }
+    .contact-block-a{
+        margin-top: 10px;
+    }
+    .contact-block-b{
+        margin-top: 10px;
+    }
+    .contact-block-c{
+        margin-top: 10px;
+    }
+    .contact-text{
+        width: 100%;
+    }
+
+    .foto-john{
+        margin-left: 0;
+        margin-top: 80px;
+    }
+    }
